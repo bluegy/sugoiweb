@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="images/sugoi_favicon.ico">
 
-    <script type="text/javascript" src="sugoi_jquery.js"></script>
-    <script type="text/javascript" src="sugoi_jquery.easing.js"></script>
-    <script type="text/javascript" src="sugoi_javascript.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
+    <!-- <script type="text/javascript" src="sugoi_jquery.easing.js"></script> -->
+    <!-- <script type="text/javascript" src="sugoi_javascript.js"></script> -->
+    
   </head>
 
   <body>
@@ -351,8 +351,15 @@
 
 
 
-    
-    
+    <script type="text/javascript" src="sugoi_jquery.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+      $('.slider').slick({
+      autoplay:true,
+      autoplaySpeed:5000,
+      dots:true,
+      });
+    </script>
   </body>
 
 </html>
