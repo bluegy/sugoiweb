@@ -139,10 +139,10 @@ img {
 #content5 {
 /* margin: 40px auto; */
 }
-.content5-map {
+/* .content5-map {
   width: 960px;
   height: 480px;
-}
+} */
 .content5-description-wrapper {
   background-color: #4c4c4c;
   display: flex;
@@ -196,8 +196,8 @@ img {
   padding-right: 15px;
 }
 
-#content7 {
-  /* display: block; */
+/* #content7 {
+  display: block;
   margin: 0 auto;
   padding: 40px 0;
 }
@@ -212,7 +212,7 @@ img {
   margin-top: -32px;
   background-image: url(./images/main/content7/sugoi_play.png);
   background-repeat: no-repeat;
-}
+} */
 
 /* フッター */
 #footer-main {
