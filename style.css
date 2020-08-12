@@ -210,6 +210,9 @@ img {
   font-size: 13px;
   line-height: 23px;
 }
+.footer-links h5 {
+  padding-bottom: 25px;
+}
 .footer-profile {
   display: flex;
   flex-direction: column;
@@ -225,5 +228,5 @@ img {
 }
 #footer-copyright img {
   display: block;
-  padding: 0 auto;
+  margin: 0 auto;
 }
