@@ -53,22 +53,21 @@ img {
 }
 
 /* スライドショー */
-#sugoiSlideshow {
+#sugoislideshow {
   height: 500px;
   margin-top: 93px;
   width: 100%;
   overflow: hidden;
 }
-
-.slideshow ul {
+/* .slider {
   list-style-type: none;
   width: 8900px;
   overflow: hidden;
 }
-.slideshow ul li {
+.slider li {
   float: left;
-}
-.slideshow img {
+} */
+.slider img {
   width: 890px;
   height: 500px;
 }

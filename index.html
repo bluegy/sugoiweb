@@ -11,6 +11,8 @@
 
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./slick/slick-theme.css" type="text/css">
+    <link rel="stylesheet" href="./slick/slick.css" type="text/css">
     <link rel="icon" type="image/png" href="images/sugoi_favicon.ico">
 
     
@@ -44,18 +46,38 @@
     </section>
     <!-- タイトル画像 -->
     
-    <div id="sugoiSlideshow" class="slideshow">
-      <ul>
-        <li><img src="images/slideshow/1_sugokusugoi.jpg" alt="すごくすごいって思う写真"></li>
-        <li><img src="images/slideshow/2_kanarisugokutefukakute.jpg" alt="かなりすごくて深くて極めて物凄い写真"></li>
-        <li><img src="images/slideshow/3_sugosadedoshiiiiin.jpg" alt="恐るべき凄さでドシーンとした写真"></li>
-        <li><img src="images/slideshow/4_sugokukaretsu.jpg" alt="相当痛烈ですごく苛烈で激甚な写真"></li>
-        <li><img src="images/slideshow/5_totemophaaaaan.jpg" alt="凄まじくとてもパーンとした写真"></li>
-        <li><img src="images/slideshow/6_shitatakanisugokute.jpg" alt="強かにすごくて言いようのない凄い写真"></li>
-        <li><img src="images/slideshow/7_susamajikuphaaan.jpg" alt="凄まじくとてもパーンとした写真"></li>
-        <li><img src="images/slideshow/8_saikounisungoi.jpg" alt="至ってすごくて最高にすんごい写真"></li>
-        <li><img src="images/slideshow/9_tyousupersugoi.jpg" alt="うんと凄くて超スーパーすごい写真"></li>
-        <li><img src="images/slideshow/10_juriiiiiiiiiin.jpg" alt="酔狂とも言えるジュリーンとした写真"></li>
+    <div id="sugoislideshow">
+      <ul class="slider">
+        <li>
+          <a href="#"><img src="images/slideshow/1_sugokusugoi.jpg" alt="すごくすごいって思う写真"></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/slideshow/2_kanarisugokutefukakute.jpg" alt="かなりすごくて深くて極めて物凄い写真"></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/slideshow/3_sugosadedoshiiiiin.jpg" alt="恐るべき凄さでドシーンとした写真"></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/slideshow/4_sugokukaretsu.jpg" alt="相当痛烈ですごく苛烈で激甚な写真"></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/slideshow/5_totemophaaaaan.jpg" alt="凄まじくとてもパーンとした写真"></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/slideshow/6_shitatakanisugokute.jpg" alt="強かにすごくて言いようのない凄い写真"></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/slideshow/7_susamajikuphaaan.jpg" alt="凄まじくとてもパーンとした写真"></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/slideshow/8_saikounisungoi.jpg" alt="至ってすごくて最高にすんごい写真"></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/slideshow/9_tyousupersugoi.jpg" alt="うんと凄くて超スーパーすごい写真"></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/slideshow/10_juriiiiiiiiiin.jpg" alt="酔狂とも言えるジュリーンとした写真"></a>
+        </li>
       </ul>
     </div>
     <!-- スライドショー -->
@@ -351,14 +373,20 @@
 
 
 
-
+    <!-- スライドショーのスクリプト -->
     <script type="text/javascript" src="sugoi_jquery.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="./slick/slick.min.js"></script>
     <script>
       $('.slider').slick({
-      autoplay:true,
-      autoplaySpeed:5000,
-      dots:true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      speed:1000,
+      variableWidth: true,	
+      centerMode: true,
+      // centerPadding: 275px,
+      arrows: false,
       });
     </script>
   </body>
