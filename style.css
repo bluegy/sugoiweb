@@ -85,10 +85,10 @@ img {
   display: flex;
 }
 .content1-text {
-  margin-left: 70px;
+  padding-left: 70px;
 }
 .content1-text p {
-  margin: 25px 0 0 0;
+  padding: 25px 0 0 0;
   font-size: 14px;
   /* color: #4c4c4c; */
   line-height: 24px;
@@ -98,7 +98,7 @@ img {
   /* margin: 40px auto; */
 }
 .content2-wrapper {
-  margin-top: 63px;
+  padding-top: 63px;
   display: flex;
 }
 .content2-wrapper p {
@@ -108,20 +108,18 @@ img {
 }
 
 #content3 {
-  /* margin: 40px auto; */
   display: flex;
 }
 .content3-wrapper {
-  margin-left: 70px;
+  padding-left: 70px;
 }
 .content3-wrapper p {
   font-size: 14px;
   line-height: 24px;
-  margin-top: 22px;
+  padding-top: 22px;
 }
 
 #content4 {
-  /* margin: 40px auto; */
   display: flex;
   justify-content: space-between;
 }
@@ -129,7 +127,7 @@ img {
   width: 300px;
 }
 .content4-text h4 {
-  margin: 35px 0 11px 0;
+  padding: 35px 0 11px 0;
 }
 .content4-text p {
   font-size: 13px;
@@ -138,37 +136,31 @@ img {
 }
 
 #content5 {
-/* margin: 40px auto; */
 }
-/* .content5-map {
-  width: 960px;
-  height: 480px;
-} */
 .content5-description-wrapper {
   background-color: #4c4c4c;
   display: flex;
   padding: 50px 30px;
 }
 .content5-description {
-  margin-right: 30px;
+  padding-right: 30px;
   width: 280px;
 }
 .content5-description:last-child {
-  margin: 0px;
+  padding: 0px;
 }
 .content5-description p {
   color: #ebebeb;
   font-size: 13px;
   line-height: 22px;
-  margin-top: 11px;
+  padding-top: 11px;
 }
 #content5-aside {
-  margin-top: 40px;
+  padding-top: 40px;
   display: flex;
 }
 .content5-aside-wrapper {
   display: flex;
-  /* width: 440px; */
   height: 91px;
 }
 .content5-aside-text {
@@ -177,19 +169,19 @@ img {
 .content5-aside-text p {
   font-size: 12px;
   line-height: 22px;
-  margin-top: 5px;
+  padding-top: 5px;
 }
 
 #content6-wrapper {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  padding-top: 20px;
 }
 .content6-text {
   width: 300px;
 }
 .content6-text h4 {
-  margin: 35px 0 11px 0;
+  padding: 35px 0 11px 0;
 }
 .content6-text p {
   font-size: 13px;
@@ -224,7 +216,7 @@ img {
   cursor: pointer;
 }
 .footer-profile img, .footer-profile a img {
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 #footer-copyright {
   background-image: url(./images/bg/sugoi_copyright_bg.png);
@@ -233,5 +225,5 @@ img {
 }
 #footer-copyright img {
   display: block;
-  margin: 0 auto;
+  padding: 0 auto;
 }
