@@ -75,124 +75,131 @@ img {
   margin: 0 auto;
   color: #4c4c4c;
 }
-#content1, #content2, #content3, #content4,
-#content5, #content6, #content7 {
+#gutto-article, #chosugo-pic, #hanahada-article, #heavy-article,
+#sugoimap, #sanzan-article, #sugoimovie {
   margin: 40px auto;
 }
 
-#content1 {
+/* グッと...記事 */
+#gutto-article {
   margin: 40px auto;
   display: flex;
 }
-.content1-text {
+.gutto-article-text {
   padding-left: 70px;
 }
-.content1-text p {
+.gutto-article-text p {
   padding: 25px 0 0 0;
   font-size: 14px;
-  /* color: #4c4c4c; */
   line-height: 24px;
 }
 
-#content2 {
-  /* margin: 40px auto; */
+/* 超すご...写真 */
+#chosugo-pic {
 }
-.content2-wrapper {
+.chosugo-pic-wrapper {
   padding-top: 63px;
   display: flex;
 }
-.content2-wrapper p {
+.chosugo-pic-wrapper p {
   padding: 11px 33px 0 0;
   font-size: 13px;
   line-height: 22px;
 }
 
-#content3 {
+/* 甚だ...記事 */
+#hanahada-article {
   display: flex;
 }
-.content3-wrapper {
+.hanahada-article-wrapper {
   padding-left: 70px;
 }
-.content3-wrapper p {
+.chanahada-article-wrapper p {
   font-size: 14px;
   line-height: 24px;
   padding-top: 22px;
 }
 
-#content4 {
+/* ヘビー...文章 */
+#heavy-article {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
-.content4-text {
+.heavy-article-text {
   width: 300px;
 }
-.content4-text h4 {
+.heavy-article-text h4 {
   padding: 35px 0 11px 0;
 }
-.content4-text p {
+.heavy-article-text p {
   font-size: 13px;
   line-height: 22px;
   padding-right: 20px;
 }
 
-#content5 {
+/* すごいマップ */
+#sugoimap {
 }
-.content5-description-wrapper {
+.sugoimap-description-wrapper {
   background-color: #4c4c4c;
   display: flex;
+  justify-content: space-between;
   padding: 50px 30px;
+  height: 245px;
 }
-.content5-description {
+.sugoimap-description {
+  width: 310px;
   padding-right: 30px;
-  width: 280px;
 }
-.content5-description:last-child {
-  padding: 0px;
+.sugoimap-description:last-child {
+  padding-right: 0;
 }
-.content5-description p {
+.sugoimap-description p {
   color: #ebebeb;
   font-size: 13px;
   line-height: 22px;
   padding-top: 11px;
+  width: 280px;
 }
-#content5-aside {
+#sugoimap-aside {
   padding-top: 40px;
   display: flex;
 }
-.content5-aside-wrapper {
+.sugoimap-aside-wrapper {
   display: flex;
   height: 91px;
 }
-.content5-aside-text {
+.sugoimap-aside-text {
   padding:0 65px 0 20px;
 }
-.content5-aside-text p {
+.sugoimap-aside-text p {
   font-size: 12px;
   line-height: 22px;
   padding-top: 5px;
 }
 
-#content6-wrapper {
+/* さんざん...記事 */
+#sanzan-article-wrapper {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
 }
-.content6-text {
+.sanzan-article-text {
   width: 300px;
 }
-.content6-text h4 {
+.sanzan-article-text h4 {
   padding: 35px 0 11px 0;
 }
-.content6-text p {
+.sanzan-article-text p {
   font-size: 13px;
   line-height: 22px;
   padding-right: 15px;
 }
 
-#content7 {
-
+/* すごい動画 */
+#sugoimovie {
 }
-.sugoi-movie {
+.movie {
   text-align: center;
 }
 
