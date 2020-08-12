@@ -16,6 +16,10 @@ img {
   max-width: 100%;
   vertical-align: bottom;
 }
+/* h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+} */
 
 /* header */
 #page-header {
@@ -114,7 +118,7 @@ img {
 .hanahada-article-wrapper {
   padding-left: 70px;
 }
-.chanahada-article-wrapper p {
+.hanahada-article-wrapper p {
   font-size: 14px;
   line-height: 24px;
   padding-top: 22px;
@@ -128,7 +132,7 @@ img {
 .heavy-article-text {
   width: 300px;
 }
-.heavy-article-text h4 {
+.heavy-article-text h2 {
   padding: 35px 0 11px 0;
 }
 .heavy-article-text p {
@@ -187,7 +191,7 @@ img {
 .sanzan-article-text {
   width: 300px;
 }
-.sanzan-article-text h4 {
+.sanzan-article-text h3 {
   padding: 35px 0 11px 0;
 }
 .sanzan-article-text p {
