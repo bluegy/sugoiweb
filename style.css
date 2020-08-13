@@ -7,6 +7,7 @@ html {
 body {
   background-image: url(./images/bg/sugoi_body.png);
   background-repeat: repeat;
+  font-family: "meiryo", "メイリオ", "sans-serif";
 }
 a {
   text-decoration: none;
@@ -16,10 +17,9 @@ img {
   max-width: 100%;
   vertical-align: bottom;
 }
-/* h1, h2, h3, h4 {
-  margin: 0;
-  padding: 0;
-} */
+h1, h2, h3, h4 {
+  vertical-align: bottom;
+}
 
 /* header */
 #page-header {
@@ -91,6 +91,12 @@ img {
 .gutto-article-text {
   padding-left: 70px;
 }
+.gutto-article-text h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  /* letter-spacing: -0.05em; */
+}
 .gutto-article-text p {
   padding: 25px 0 0 0;
   font-size: 14px;
@@ -103,6 +109,12 @@ img {
 .chosugo-pic-wrapper {
   padding-top: 63px;
   display: flex;
+}
+.chosugo-pic-wrapper h2 {
+  font-family: "フォーク R", "Folk Regular", serif;
+  font-size: 22px;
+  font-weight: normal;
+  letter-spacing: -0.05em;
 }
 .chosugo-pic-wrapper p {
   padding: 11px 33px 0 0;
@@ -122,16 +134,29 @@ img {
   line-height: 24px;
   padding-top: 22px;
 }
+.hanahada-article-wrapper h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: -0.05em;
+}
+.hanahada-article-wrapper h2 span {
+  letter-spacing: -0.5em;
+}
 
 /* ヘビー...文章 */
 #heavy-article {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 .heavy-article-text {
   width: 300px;
 }
 .heavy-article-text h2 {
+  font-family: "フォーク R", "Folk Regular", serif;
+  font-size: 22px;
+  font-weight: normal;
+  letter-spacing: -0.05em;
   padding: 35px 0 11px 0;
 }
 .heavy-article-text p {
@@ -157,6 +182,13 @@ img {
 .sugoimap-description:last-child {
   padding-right: 0;
 }
+.sugoimap-description h2 {
+  font-family: "フォーク R", "Folk Regular", serif;
+  color: #ebebeb;
+  font-size: 22px;
+  font-weight: normal;
+  letter-spacing: -0.05em;
+}
 .sugoimap-description p {
   color: #ebebeb;
   font-size: 13px;
@@ -175,6 +207,11 @@ img {
 .sugoimap-aside-text {
   padding:0 65px 0 20px;
 }
+.sugoimap-aside-text h3 {
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: -0.05em;
+}
 .sugoimap-aside-text p {
   font-size: 12px;
   line-height: 22px;
@@ -182,6 +219,12 @@ img {
 }
 
 /* さんざん...記事 */
+#sanzan-article h2 {
+  font-family: "フォーク R", "Folk Regular", serif;
+  font-size: 22px;
+  font-weight: normal;
+  letter-spacing: -0.05em;
+}
 #sanzan-article-wrapper {
   display: flex;
   justify-content: space-between;
@@ -191,7 +234,14 @@ img {
   width: 300px;
 }
 .sanzan-article-text h3 {
+  font-family: "フォーク R", "Folk Regular", serif;
+  font-size: 22px;
+  font-weight: normal;
+  letter-spacing: -0.08em;
   padding: 35px 0 11px 0;
+}
+.sanzan-article-text h3 span {
+  letter-spacing: -0.5em;
 }
 .sanzan-article-text p {
   font-size: 13px;
@@ -220,7 +270,9 @@ img {
   font-size: 13px;
   line-height: 23px;
 }
-.footer-links h5 {
+.footer-links h2 {
+  font-size: 14px;
+  color: white;
   padding-bottom: 25px;
 }
 .footer-profile {
